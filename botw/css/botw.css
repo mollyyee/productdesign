@@ -1,0 +1,210 @@
+/*/*Skeleton*/
+
+body {
+	width: 100%;
+}
+
+@font-face {
+    font-family: 'olight'; /*a name to be used later*/
+    src: url('../../fonts/ostrich-sans-light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'oreg'; /*a name to be used later*/
+    src: url('../../fonts/ostrich-sans-regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'obold'; 
+    /*the snickerdoodle title*/
+    src: url('../../fonts/ostrich-sans-inline-regular.ttf');
+}
+
+@font-face {
+    font-family: 'oblack';
+    src: url('../../fonts/ostrich-sans-black.ttf')
+}
+
+@font-face {
+    font-family: 'light'; /*a name to be used later*/
+    src: url('../../fonts/SourceSansPro-Light.ttf'); /*URL to font*/
+}
+
+body {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #878182;
+}
+
+
+#intro { 
+	top: 0%;
+	height: 60%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+#container {
+	margin: auto;
+	top: 20%;
+}
+
+ #title {
+	margin: auto;
+	text-align: center;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+	font-size: 80px;
+	z-index: 1;
+	color: #607D8B;
+	padding: .2em 0 .2em 0;
+ }
+
+#description {
+	font-family: 'oblack'; 
+	font-size: 24px;
+	letter-spacing: 2px;
+ 	text-align: center;
+ 	padding: .2em 0 .2em 0;
+ 	color: #607D8B;
+}
+
+#timeframe {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 26px;
+	text-align: center;
+	padding: .2em 0 .2em 0;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+	color: #607D8B;
+}
+#why, #process, #userneeds, #thechallenge, #ideation, #prototyping, #product, #usertesting, #lessons { 
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: top;
+	position: relative;
+	overflow: auto;
+}
+
+#whytext {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.box, .box2 {
+	padding: 5% 2% 5% 2%;
+}
+
+.box2 {
+	background-color: #fafbfb;
+}
+
+#muggingimgs {
+	width: 100%;
+	z-index: 1;
+	clear:both;
+}
+
+#text {
+	clear:both;
+	padding-top: 1%;
+}
+
+
+/*fonts*/
+
+p {
+    font-family: light;
+    font-size: 1.5em;
+}
+
+.subtitle {
+    font-family: obold;
+    font-size: 3em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    letter-spacing: .03em;
+    line-height: 1em;
+}
+
+
+
+.caption {
+	margin-top: 2%;
+	text-align: center; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 14px;
+}
+
+/*pic decoration*/
+
+#mobilebanking, #survey, #insights, #thoughtprocess, #survey, #customerjourney, #brainstorm, #excelfeatures {
+	display: block;
+	margin: auto;
+}
+
+#mobilebanking {
+	width: 80%;
+}
+
+#survey, #customerjourney, #brainstorm {
+	width: 100%;
+	padding-top: 2%;
+}
+
+#insights, #thoughtprocess {
+	width: 100%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+#insights, #excelfeatures {
+	width: 100%;
+}
+
+
+
+
+
+#navbar {
+	position: fixed;
+	display: flex;
+	height: 10%;
+	width: 100%;
+	top: 0;
+	background: white;
+	align-items: center;
+	margin: auto;
+	z-index: 100;
+}
+
+
+#workbtn { 
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 13px;
+	font-family: 'oreg'; 
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	color: white;
+ }
+
+ #workbtn:hover a {
+ 	color: #EF9A9A;
+ }
+
+
+
+
+
+
+
+
