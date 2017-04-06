@@ -47,19 +47,11 @@ and (max-device-width : 480px) {
 	width: 100%;
 }
 
-#rightside {
-	align-items: center;
-	float: right;
-	position: relative;
-	height: 100%;
-	width: 50%;
-}
-
 .projectdisplay {
 	display: flex;
 	margin-top: 12%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
 	height: 65%;
 }
 
@@ -119,8 +111,8 @@ a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.lin
 
 #text {
 	margin-top: 12%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
 	height: 50%;
 }
 
@@ -290,27 +282,21 @@ and (min-device-width : 500px)  {
 
  #projects {
 	position: relative;
-	height: 90%;
-	margin: auto;
+	display:flex;
 	z-index: 3;
-	display: flex;	
-	overflow: auto;
 	margin-right: 5%;
 	margin-left: 5%;
 }
 
 #leftside {
 	align-items: center;
-	float: left;
-	position: relative;
-	height: 100%;
 	width: 50%;
+	display: flex;
 }
 
 #rightside {
 	align-items: center;
-	float: right;
-	position: relative;
+	display: flex;
 	height: 100%;
 	width: 50%;
 }
@@ -376,7 +362,7 @@ a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.lin
 	margin-top: 12%;
 	margin-right: 10%;
 	margin-left: 10%;
-	height: 50%;
+	height: auto;
 }
 
 #projectlist a, li {
@@ -464,6 +450,7 @@ svg {
 /*misc section*/
 
 #misc {
+	position: relative;
 	height: 60%;
 	display: flex;
 	align-items: center;
@@ -490,7 +477,7 @@ svg {
 
 #button {
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 2%;
 	width: 20%;
 	height: 35px;
 	cursor: pointer;
