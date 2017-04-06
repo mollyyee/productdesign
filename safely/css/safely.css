@@ -34,6 +34,177 @@ a {
 }
 
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+#navbar {
+	position: fixed;
+	display: flex;
+	height: 8%;
+	width: 100%;
+	top: 0;
+	background: white;
+	align-items: center;
+	margin: auto;
+	z-index: 100;
+}
+
+
+#workbtn { 
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 4%;
+	font-family: 'oreg'; 
+	font-size: 3.5em;
+	letter-spacing: 2px;
+	color: white;
+ }
+
+ #workbtn:hover a {
+ 	color: #EF9A9A;
+ }
+
+#intro { 
+	padding-top: 15%;
+	height: 30%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+#container {
+	margin: auto;
+	top: 20%;
+}
+
+#intropic { 
+	position: absolute;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+ }
+
+ #title {
+	margin: auto;
+	text-align: center;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+	font-size: 10em;
+	z-index: 1;
+	color: white;
+	padding: .2em 0 .2em 0;
+ }
+
+#description {
+	font-family: 'oblack'; 
+	font-size: 3em;
+	letter-spacing: 2px;
+ 	text-align: center;
+ 	padding: .2em .7em .2em .7em;
+ 	color: #c7c7c7;
+
+}
+
+#timeframe {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 4em;
+	text-align: center;
+	padding: .2em 0 .2em 0;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+	color: #c7c7c7;
+}
+
+#why, #process, #userneeds, #thechallenge, #ideation, #prototyping, #product, #usertesting, #lessons { 
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: top;
+	position: relative;
+	overflow: auto;
+}
+
+.box, .box2 {
+	padding: 5% 2% 5% 2%;
+}
+
+.box2 {
+	background-color: #fafbfb;
+}
+
+#muggingimgs {
+	width: 100%;
+	z-index: 1;
+	clear:both;
+}
+
+#text {
+	clear:both;
+	padding-top: 1%;
+}
+
+
+/*fonts*/
+
+p {
+    font-family: light;
+    font-size: 1.5em;
+}
+
+.subtitle {
+    font-family: obold;
+    font-size: 3em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    letter-spacing: .03em;
+    line-height: 1em;
+}
+
+
+.caption {
+	margin-top: 2%;
+	text-align: center; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 14px;
+}
+
+/*pic decoration*/
+
+#mugging1, #mugging2, #mugging3, #mugging4 { 
+	float: left;
+	width: 31%;
+	padding-right: 2%;
+	position: relative;
+ }
+
+#userneeds {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#competitors {
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+
+#safelyprototypes { 
+	width: 100%;
+	padding-top: 2%;
+
+ }
+
+}
+
+
+@media only screen 
+and (min-device-width : 500px)  {
+
 #navbar {
 	position: fixed;
 	display: flex;
@@ -197,3 +368,4 @@ p {
 
  }
 
+}

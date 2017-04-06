@@ -34,6 +34,204 @@ a {
 	color: #878182;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+#navbar {
+	position: fixed;
+	display: flex;
+	height: 8%;
+	width: 100%;
+	top: 0;
+	background: white;
+	align-items: center;
+	margin: auto;
+	z-index: 100;
+}
+
+
+#workbtn { 
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 13px;
+	font-family: 'oreg'; 
+	font-size: 3.5em;
+	letter-spacing: 2px;
+	color: white;
+ }
+
+ #workbtn:hover a {
+ 	color: #EF9A9A;
+ }
+
+#intro { 
+	padding-top: 15%;
+	height: 30%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+#container {
+	margin: auto;
+	top: 20%;
+}
+
+#intropic { 
+	position: absolute;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+ }
+
+ #title {
+	margin: auto;
+	text-align: center;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+	font-size: 10em;
+	z-index: 1;
+	color: #545E77;
+	padding: .2em 0 .2em 0;
+ }
+
+#description {
+	font-family: 'oblack'; 
+	font-size: 3em;
+	letter-spacing: 2px;
+ 	text-align: center;
+ 	padding: .2em .7em .2em .7em;
+ 	color: #37474F;
+
+}
+
+#timeframe {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 4em;
+	text-align: center;
+	padding: .2em 0 .2em 0;
+	font-family: "obold"; 
+	letter-spacing: 5px;
+}
+
+#why, #process, #userneeds, #thechallenge, #ideation, #prototyping, #product, #usertesting, #lessons { 
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: top;
+	position: relative;
+	overflow: auto;
+}
+
+.box, .box2 {
+	padding: 5% 2% 5% 2%;
+}
+
+.box2 {
+	background-color: #fafbfb;
+}
+
+.boxwhy {
+	background-color: white;
+	padding: 5% 2% 5% 2%;
+
+}
+
+
+/*fonts*/
+
+
+p, ul {
+    font-family: light;
+    font-size: 1.5em;
+}
+
+
+#emphasis {
+	font-family: oreg;
+    font-size: 3em;
+    letter-spacing: .1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+.subtitle {
+    font-family: obold;
+    font-size: 4em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    letter-spacing: .03em;
+    line-height: 1em;
+}
+
+
+.caption {
+	margin-top: 2%;
+	text-align: center; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+	font-size: 14px;
+}
+
+/*pic decoration*/
+
+#motivation, #hustleneeds {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#sketchscreens {
+	width: 100%;
+}
+
+ #workbtn:hover a {
+ 	color: #EF9A9A;
+ }
+
+#surveyresearch {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+
+
+#lofi1, #lofi2, #lofi3, #lofi4 {
+	width: 90%;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#figmascreens {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#usertesting {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+
+}
+
+
+@media only screen 
+and (min-device-width : 500px)  {
+
 #navbar {
 	position: fixed;
 	display: flex;
@@ -251,5 +449,5 @@ p {
 	display: block;
 	margin: auto;
 }
-
+}
 

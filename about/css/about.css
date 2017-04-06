@@ -30,6 +30,195 @@ body {
     align-items: center;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+#navbar {
+    position: fixed;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 100;
+}
+
+
+a {
+    text-decoration: none;
+    color: #878182;
+}
+
+a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.link#k812link {
+    color: #7585BC;
+}
+
+#workbtn:hover a, #miscbtn:hover a {
+    color: #FF7043;
+    cursor: pointer;
+}
+
+#resumebtn a {
+    color: #FF7043;
+}
+
+
+#workbtn, #resumebtn { 
+    float: left;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 13px;
+    font-family: 'oreg'; 
+    font-size: 3.5em;
+    letter-spacing: 2px;
+ }
+
+#miscbtn {
+    display: none;
+}
+
+ a {
+    text-decoration: none;
+ }
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: .8em;
+}
+
+#itme {
+    margin: auto;
+    width: 80%;
+    padding-top: 2%;
+}
+
+#welcome {
+    font-family: obold;
+    font-size: 7em;
+    padding-bottom: .2em;
+    letter-spacing: .05em;
+    line-height: .9em;
+}
+
+#bigbody {
+    margin-top: 5%;
+}
+
+#passion {
+    font-family: oreg;
+    font-size: 4em;
+    letter-spacing: .1em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+
+#text {
+    padding-top: 10%;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#otherexperiences {
+    font-family: light;
+    font-size: 3.2em;
+    padding-bottom: .5em;
+}
+
+
+#sonaturally, #bio{
+    font-family: light;
+    font-size: 3.2em;
+}
+
+
+#resumebutton, #linkedinbutton {
+    margin: auto;
+    width: 70%;
+    height: 4%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    border: solid;
+    border-color: #FF7043;
+    font-family: 'oreg'; 
+    padding: .2em 0 0 0;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+#resumebutton:hover, #linkedinbutton:hover {
+    transition: background-color .5s ease;
+    background-color: #FF7043;
+}
+
+#resumebutton:hover a, #linkedinbutton:hover a {
+    color: white;
+}
+
+#divright {
+    width: 50%;
+    float: right;
+}
+#divleft {
+    width: 50%;}
+
+#links {
+    color: #7585BC
+}
+
+#links:hover {
+    color: #FF7043;
+}
+
+li {
+    list-style-type: circle;
+}
+
+}
+
+@media only screen 
+and (min-device-width : 500px)  {
+@font-face {
+    font-family: 'olight'; /*a name to be used later*/
+    src: url('../../fonts/ostrich-sans-light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'oreg'; /*a name to be used later*/
+    src: url('../../fonts/ostrich-sans-regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'obold'; 
+    /*the snickerdoodle title*/
+    src: url('../../fonts/ostrich-sans-inline-regular.ttf');
+}
+
+@font-face {
+    font-family: 'oblack';
+    src: url('../../fonts/ostrich-sans-black.ttf')
+}
+
+@font-face {
+    font-family: 'light'; /*a name to be used later*/
+    src: url('../../fonts/SourceSansPro-Light.ttf'); /*URL to font*/
+}
+
+body {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 #navbar {
@@ -177,5 +366,4 @@ li {
     list-style-type: circle;
 }
 
-
-
+}
