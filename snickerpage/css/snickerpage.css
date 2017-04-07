@@ -163,7 +163,7 @@ and (max-device-width : 480px) {
 p, ul {
     font-family: light;
     font-size: 2em;
-	line-height: .5em;
+	line-height: 1.2em;
 }
 
 
