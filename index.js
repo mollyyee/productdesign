@@ -102,6 +102,13 @@ $('#snickerpage').mouseout(function() {
 	$('#snickerslide3').fadeOut(150);
 })
 
+$('#chimepage').mouseover(function() {
+	$('#chimegif').fadeIn(400);
+})
+$('#chimepage').mouseout(function() {
+	$('#chimegif').fadeOut(150);
+})
+
 $('#hustlelink').mouseover(function() {
 	$('#hustleslide').fadeIn(400);
 })
