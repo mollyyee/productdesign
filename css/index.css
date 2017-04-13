@@ -97,7 +97,7 @@ a {
 	color: #878182;
 }
 
-a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.link#k812link {
+a.link#chimepage, a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.link#k812link {
 	color: #7585BC;
 	font-family: 'oreg'; 
 	font-size: 1.2em;
@@ -129,13 +129,13 @@ a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.lin
 	padding-top: 15%;
 }
 
-#snickerpage.link:link, #hustlelink.link:link, #safelylink.link:link, #botwlink.link:link, #k812link.link:link, #pbllink.link:link 
+#chimepage.link:link, #snickerpage.link:link, #hustlelink.link:link, #safelylink.link:link, #botwlink.link:link, #k812link.link:link, #pbllink.link:link 
  {
 	text-decoration: none;
 	color: #7585BC;
 }
 
-#snickerpage.link:hover, #hustlelink.link:hover, #safelylink.link:hover, #botwlink.link:hover, #k812link.link:hover, #pbllink.link:hover 
+#chimepage.link:link, #snickerpage.link:hover, #hustlelink.link:hover, #safelylink.link:hover, #botwlink.link:hover, #k812link.link:hover, #pbllink.link:hover 
  {
 	color: #F29679;
 }
@@ -346,7 +346,7 @@ a {
 	color: #878182;
 }
 
-a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.link#k812link {
+a.link#chimepage, a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.link#k812link {
 	color: #7585BC;
 	font-family: 'oreg'; 
 	font-size: 1.2em;
@@ -369,18 +369,19 @@ a.link#hustlelink, a.link#snickerpage, a.link#safelylink, a.link#botwlink, a.lin
 	font-family: "light"; 
 	font-size: 1.2em;
 	font-weight: lighter;
-	line-height: 1.2;
+	line-height: 1.2em;
 	letter-spacing: 0.5px;
 	color: #474747;
 }
 
-#snickerpage.link:link, #hustlelink.link:link, #safelylink.link:link, #botwlink.link:link, #k812link.link:link, #pbllink.link:link 
+
+#chimepage.link:link, #snickerpage.link:link, #hustlelink.link:link, #safelylink.link:link, #botwlink.link:link, #k812link.link:link, #pbllink.link:link 
  {
 	text-decoration: none;
 	color: #7585BC;
 }
 
-#snickerpage.link:hover, #hustlelink.link:hover, #safelylink.link:hover, #botwlink.link:hover, #k812link.link:hover, #pbllink.link:hover 
+#chimepage.link:hover, #snickerpage.link:hover, #hustlelink.link:hover, #safelylink.link:hover, #botwlink.link:hover, #k812link.link:hover, #pbllink.link:hover 
  {
 	color: #F29679;
 }
@@ -426,7 +427,7 @@ svg {
 }
 
 
-#hustleslide, #botwimg, #safelyscreens, #botwimg, #teffwebsite, #snickerslide3, #safelyscreens {
+#chimegif, #hustleslide, #botwimg, #safelyscreens, #botwimg, #teffwebsite, #snickerslide3, #safelyscreens {
 	width: 100%;
 	display: flex;
 	margin: auto;
